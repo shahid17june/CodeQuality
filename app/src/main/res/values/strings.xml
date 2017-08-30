@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CodeQuality</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="somethingwrong">Something went wrong. Please try again</string>
+    <string name="internet_connection_issue">Please make sure your internet is working.</string>
+
+    <!--Invoice List Item-->
+    <string name="invoice_number_">Invoice No:</string>
+    <string name="order_number_">Order No:</string>
+    <string name="employee_name_">Employee Name:</string>
+    <string name="ok">Ok</string>
+    <string name="dialog_title">Item Clicked</string>
+</resources>
