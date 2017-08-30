@@ -44,7 +44,7 @@ public class HomePresenter implements HomeFragment.MyListner, BackEndCallBack, M
     public void createFragment() {
         homeFragment = new HomeFragment();
         homeFragment.setHelper(this);
-        MyUtility.navigateTo(activity, homeFragment, MyConstant.TAG_HOME, true);
+        MyUtility.navigateTo(activity, homeFragment, MyConstant.TAG_HOME, false);
     }
 
 

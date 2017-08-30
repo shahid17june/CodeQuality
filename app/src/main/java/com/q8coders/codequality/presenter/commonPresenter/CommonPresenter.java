@@ -29,7 +29,7 @@ public class CommonPresenter {
         Bundle bundle = new Bundle();
         bundle.putString(MyConstant.COMING_FROM,TAG);
         commonFragment.setArguments(bundle);
-        MyUtility.navigateTo(activity, commonFragment, MyConstant.TAG_HOME, true);
+        MyUtility.navigateTo(activity, commonFragment, MyConstant.TAG_HOME, false);
     }
 
 }
